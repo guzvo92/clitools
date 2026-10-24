@@ -1,0 +1,21 @@
+# Build / cache
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# Local agent harness
+.claude/
+.agents/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# OS temps
+.DS_Store
+Thumbs.db
+*.log
